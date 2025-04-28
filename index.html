@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lexxa | Legal AI for M&A Integration</title>
+  <meta name="description" content="Lexxa helps legal teams streamline post-acquisition contract integration with AI-powered analysis, tasking, and drafting.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-white via-white to-purple-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="text-center py-6">
+    <h1 class="text-3xl font-bold text-purple-700">Lexxa</h1>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-16 px-4">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4 text-purple-900">Your in-house legal team for post-acquisition integration.</h2>
+    <p class="text-lg md:text-xl mb-8 text-purple-800 max-w-2xl mx-auto">
+      We analyse every contract, flag risks, streamline tasking, and auto-draft legal notices so you don't fall behind post-close.
+    </p>
+    <button onclick="toggleModal()" class="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-xl text-lg">
+      Get Early Access
+    </button>
+  </section>
+
+  <!-- Benefits -->
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8 md:px-20 py-16 bg-purple-50">
+    <div class="bg-white shadow-xl rounded-2xl p-6">
+      <h3 class="text-purple-800 text-xl font-semibold mb-2">Save time on legal work</h3>
+      <p class="text-purple-700">Accelerate post-acquisition workflows with AI-driven automation.</p>
+    </div>
+    <div class="bg-white shadow-xl rounded-2xl p-6">
+      <h3 class="text-purple-800 text-xl font-semibold mb-2">Reduce risk of errors</h3>
+      <p class="text-purple-700">AI highlights discrepancies, missing terms, and legal risks instantly.</p>
+    </div>
+    <div class="bg-white shadow-xl rounded-2xl p-6">
+      <h3 class="text-purple-800 text-xl font-semibold mb-2">Cut legal costs</h3>
+      <p class="text-purple-700">Avoid expensive manual reviews and speed up compliance actions.</p>
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section class="py-16 px-6 md:px-20 bg-white text-center">
+    <h2 class="text-4xl md:text-5xl font-semibold text-purple-900 mb-10">How it works</h2>
+    <div class="flex flex-wrap justify-center items-center gap-10">
+
+      <!-- Their Contracts -->
+      <div class="bg-purple-100 rounded-xl p-6 shadow-md w-64">
+        <h4 class="text-purple-900 font-semibold mb-4">Their Contracts</h4>
+        <ul class="text-left text-purple-800 space-y-1 text-sm">
+          <li>ACME Ltd – MSA</li>
+          <li>Brightwave – NDA</li>
+          <li>Vendor – SOW</li>
+          <li class="text-purple-600">+ 589 more</li>
+        </ul>
+      </div>
+
+      <!-- Arrow -->
+      <div class="text-purple-400 text-3xl">➡️</div>
+
+      <!-- AI Analysis -->
+      <div class="flex flex-col items-center">
+        <div class="bg-gradient-to-br from-purple-300 to-purple-500 rounded-full w-24 h-24 flex items-center justify-center shadow-lg">
+          ⚡
+        </div>
+        <p class="mt-4 font-medium text-purple-800">AI Analysis</p>
+        <div class="text-purple-400 text-2xl mt-4">⬇️</div>
+      </div>
+
+      <!-- Arrow -->
+      <div class="text-purple-400 text-3xl rotate-180">➡️</div>
+
+      <!-- Your Contracts -->
+      <div class="bg-purple-100 rounded-xl p-6 shadow-md w-64">
+        <h4 class="text-purple-900 font-semibold mb-4">Your Contracts</h4>
+        <ul class="text-left text-purple-800 space-y-1 text-sm">
+          <li>Standard Supplier Agreement</li>
+          <li>Employment Contract Template</li>
+          <li>Internal Procurement Policy</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Tasks Report -->
+    <div class="bg-purple-100 rounded-xl shadow-md mt-16 max-w-md mx-auto p-8">
+      <h4 class="text-center text-purple-900 font-bold mb-4">Tasks & Risk Report</h4>
+      <ul class="text-purple-800 mb-4 text-left">
+        <li class="text-red-600 font-semibold">10 High Risk</li>
+        <li class="text-yellow-600 font-semibold">50 Medium Risk</li>
+        <li class="text-green-600 font-semibold">20 Low Risk</li>
+      </ul>
+      <hr class="my-3 border-purple-300">
+      <ul class="space-y-2 text-purple-900 text-left">
+        <li><strong>Issue amendment to Acme Ltd</strong> <span class="italic text-purple-700">View draft</span></li>
+        <li><strong>Update DPA with XYZ Ltd</strong> <span class="italic text-purple-700">Send to client</span></li>
+        <li><strong>Align SLA with benchmarks</strong> <span class="italic text-purple-700">Schedule review</span></li>
+        <li class="italic text-purple-500">... see more</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- Final CTA -->
+  <section class="text-center py-20 bg-purple-100">
+    <h2 class="text-4xl md:text-5xl font-semibold mb-6 text-purple-900">Eliminate surprises post-close</h2>
+    <p class="text-lg text-purple-800 mb-10 max-w-xl mx-auto">
+      Let us help you bring every contract in line, faster, cleaner, and with complete visibility for your legal and ops teams.
+    </p>
+    <button onclick="toggleModal()" class="bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-xl text-lg">
+      Join the Waitlist
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-purple-500 py-8">
+    © 2025 Lexxa. All rights reserved.
+  </footer>
+
+  <!-- Modal -->
+  <div id="waitlistModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-xl shadow-2xl p-8 w-full max-w-md">
+      <h3 class="text-2xl font-semibold text-purple-900 mb-6">Join the Waitlist</h3>
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfeIjXPgW1gDDefSoryrIZy3hmha_KGVl5KloKLTlBxDdL2fQ/formResponse" method="POST" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-purple-800">Name</label>
+          <input name="entry.2098556974" required class="w-full mt-1 border border-purple-300 rounded-lg p-2" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-purple-800">Email</label>
+          <input type="email" name="entry.696079818" required class="w-full mt-1 border border-purple-300 rounded-lg p-2" />
+        </div>
+        <div class="flex justify-end gap-2 pt-4">
+          <button type="button" onclick="toggleModal()" class="px-4 py-2 bg-gray-300 hover:bg-gray-400 rounded-lg text-black">Cancel</button>
+          <button type="submit" class="px-6 py-2 bg-purple-700 hover:bg-purple-800 text-white font-semibold rounded-lg">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal toggle -->
+  <script>
+    function toggleModal() {
+      const modal = document.getElementById('waitlistModal');
+      modal.classList.toggle('hidden');
+    }
+  </script>
+
+</body>
+</html>
